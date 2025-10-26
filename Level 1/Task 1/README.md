@@ -45,7 +45,7 @@ It covers three tasks designed to strengthen my HTML, CSS, and JavaScript fundam
 ![Intern Project Screenshot](assets/dev_image.png)
 
 ## 🌍 Live Demo  
-🔗 **[View Project on Netlify](https://cognifyz-webdev-level1.netlify.app/)** 
+🔗 **[View Project on Netlify](https://cognifyz-web-dev-internship-dkd1.vercel.app/)** 
 
 ## 👨‍💻 Developed By
 
