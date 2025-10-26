@@ -1,20 +1,58 @@
-# 🧠 Cognifyz Web Development Internship  
-### Level 1 - Task 2: JavaScript Basics
+# 🌐 Cognifyz Web Development Internship — Level 1 (Task 2)
 
-This project demonstrates fundamental JavaScript concepts through three simple interactive elements:
-
-1️⃣ **Color Changing Button** – Changes its background color randomly each time it's clicked.  
-2️⃣ **Dynamic Greeting Message** – Displays a greeting ("Good Morning", "Good Afternoon", or "Good Evening") based on the current system time.  
-3️⃣ **Basic Calculator** – Takes two numeric inputs, adds them, and displays the result instantly.
-
-### 🛠️ Technologies Used
-- HTML5  
-- CSS3  
-- JavaScript (ES6)
-
-### 🧑‍💻 Developer
-Developed by **Jashwanth R** | *Cognifyz Web Development Internship - Level 1*
+## 🧩 Task Overview
+This task focuses on basic **JavaScript interactivity**.  
+It includes creating simple, functional elements that demonstrate core JS concepts such as DOM manipulation, event handling, and conditional logic.
 
 ---
 
-💡 *A clean, minimal, and functional demonstration of JavaScript essentials.*
+## 🧠 Project Objectives
+- Develop a **button** that changes its color when clicked using JavaScript.  
+- Display a **greeting message** based on the current time (morning, afternoon, or evening).  
+- Build a **basic calculator** that adds two numbers and shows the result dynamically.
+
+---
+
+## 🧾 Features Implemented
+
+### 🎨 Color Changing Button
+- A button that changes to a random color whenever clicked.  
+- Implemented using event listeners and dynamic style updates.
+
+### ⏰ Dynamic Greeting
+- Automatically detects the current time of day.  
+- Displays “Good Morning”, “Good Afternoon”, or “Good Evening” on the screen accordingly.
+
+### ➕ Simple Calculator
+- Allows the user to input two numbers.  
+- Adds them together and displays the result below.  
+- Includes basic input validation for better UX.
+
+---
+
+## ⚙️ Technologies Used
+- **HTML5** – Structure  
+- **CSS3** – Styling and layout  
+- **JavaScript (Vanilla JS)** – Interactivity and logic
+
+---
+
+## 📂 Folder Structure
+Level 1/
+├─ Task 2/
+│ ├─ index.html
+│ ├─ index1.css
+│ ├─ index1.js
+│ └─ README.md
+
+---
+
+## 🚀 Live Demo
+🔗 [View Deployed Project on Vercel](https://cognifyz-web-dev-internship-pvve.vercel.app/)
+
+---
+
+## 👨‍💻 Developed By
+**Jashwanth R**  
+Cognifyz Web Development Internship (Level 1)
+
