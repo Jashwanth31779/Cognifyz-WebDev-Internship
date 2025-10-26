@@ -40,6 +40,12 @@ It covers three tasks designed to strengthen my HTML, CSS, and JavaScript fundam
 - Visual Studio Code
 
 ---
+### 🖼️ Project Preview
+
+![Intern Project Screenshot](assets/dev_image.png)
+
+## 🌍 Live Demo  
+🔗 **[View Project on Netlify](https://cognifyz-webdev-level1.netlify.app/)** 
 
 ## 👨‍💻 Developed By
 
@@ -47,7 +53,3 @@ It covers three tasks designed to strengthen my HTML, CSS, and JavaScript fundam
 Web Development Intern @ **Cognifyz Technologies**
 
 ---
-
-### 🖼️ Project Preview
-
-![Intern Project Screenshot](assets/dev_image.png)
