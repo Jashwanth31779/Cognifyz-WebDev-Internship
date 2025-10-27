@@ -40,7 +40,7 @@ To build a visually appealing and mobile-responsive web page using a front-end f
 ---
 
 ## 🌍 Live Demo  
-🔗 **[](https://your-vercel-link.vercel.app/)**  
+🔗 **[View project on vercel](https://your-vercel-link.vercel.app/)**  
 
 ---
 
