@@ -43,7 +43,7 @@ To design and develop a *responsive personal portfolio webpage* that:
 
 ## 🔗 Live Demo  
 
-🌍 *Deployed Link:* [https://your-task2-link.vercel.app/](https://your-task2-link.vercel.app/)  
+🌍 *Deployed Link:* [https://your-task2-link.vercel.app/](https://cognifyz-web-dev-internship-lbi7.vercel.app/)  
   
 ---
 
