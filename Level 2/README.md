@@ -1,55 +1,59 @@
-# 🌐 Cognifyz Web Development Internship – Level 2  
+# 🚀 Cognifyz Web Development Internship – Level 2
 
-### 🧠 Task 1 – Front-end Frameworks  
-This task focused on using **modern front-end frameworks** to create a clean and responsive webpage layout.  
-I implemented a **responsive card grid** using the **Bulma CSS framework**, showcasing famous Indian scientists with their images, contributions, and Wikipedia references.  
-
----
-
-## 🚀 Project Overview  
-
-### 🎯 Objective  
-To build a visually appealing and mobile-responsive web page using a front-end framework such as **Bulma**, **Bootstrap**, or **UIKit**.  
-
-### ⚙️ Tech Stack  
-- **HTML5** – Semantic markup structure  
-- **Bulma CSS Framework** – For responsive grid layout and styling  
-- **Custom CSS** – For hover effects, color gradients, and smooth transitions  
+## 💡 Task 1 – Front-End Frameworks  
+This task was about using **modern front-end frameworks** to build responsive and visually appealing web layouts.  
+I completed **two mini-projects** under this level:
 
 ---
 
-## 🧩 Features  
- Responsive card layout (3-column grid)  
- Smooth hover animation on cards  
- Each card includes:  
- Scientist’s image  
- Short description  
- Wikipedia link (`Learn More`)  
- Attractive header & footer with gradient background  
+### 🌟 Project 1: Famous Indian Scientists (Bulma)  
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-cbrj.vercel.app/)  
+This project showcases a responsive card-grid built using the **Bulma CSS framework**, featuring notable Indian scientists with images, descriptions and “Learn More” links.
+
+#### 🧠 Features  
+- Responsive card-layout (3-column grid on desktop)  
+- Hover animations and soft shadows  
+- Clean typography and subtle gradient background  
+- Each card includes image, short bio & link to Wikipedia  
+
+#### ⚙️ Tech Stack  
+- **HTML5** (semantic structure)  
+- **Bulma CSS** (grid & cards)  
+- Custom CSS (hover effect, colors, layout polish)  
 
 ---
 
-## 🔬 Scientists Featured  
-1. Dr. A.P.J. Abdul Kalam – *Missile Man of India*  
-2. Sir C.V. Raman – *Discoverer of the Raman Effect*  
-3. Dr. Homi J. Bhabha – *Father of Indian Nuclear Program*  
-4. Dr. Vikram Sarabhai – *Founder of ISRO*  
-5. Kalpana Chawla – *First Indian Woman in Space*  
-6. Satyendra Nath Bose – *Quantum Mechanics Pioneer*  
+### 🧩 Project 2: Responsive Grid Layout (Bootstrap)  
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-cbrj.vercel.app/grid.html)  
+This project demonstrates use of the **Bootstrap 5 framework** to build a clean grid layout showcasing web-technologies with icons and interactive styling.
+
+#### 🧠 Features  
+- Responsive Bootstrap grid system (cols adjust at sm/md/lg breakpoints)  
+- Modular “box” elements with icons and hover effects  
+- Gradient background, rounded cards, and mobile friendly layout  
+
+#### ⚙️ Tech Stack  
+- **HTML5**  
+- **Bootstrap 5**  
+- Custom CSS (transitions, styling tweaks)  
 
 ---
 
-## 🌍 Live Demo  
-🔗 **[Click Here to View the Deployed Site](https://cognifyz-web-dev-internship-lvl2-ta.vercel.app/)**  
+### 🧾 Objective  
+To build and deploy clean, responsive web layouts using front-end frameworks like Bulma and Bootstrap, while maintaining a professional look and clean code.
 
 ---
 
-## 🧑‍💻 Developed By  
+### 🧰 Tools Used  
+- **VS Code** – development editor  
+- **Git & GitHub** – version control & repository  
+- **Vercel** – live deployment host  
+
+---
+
+### 👨‍💻 Developed By  
 **Jashwanth R**  
-Web Development Intern @ Cognifyz Technologies  
+📅 *Cognifyz Web Development Internship – Level 2 (Front-End Frameworks)*  
+🌐 [GitHub Repository](https://github.com/Jashwanth31779/Cognifyz-WebDev-Internship)  
 
-📅 *October 2025*  
-💼 *Task: Level 2 – Front-end Frameworks (Responsive Cards with Bulma)*  
-
----
-
+> “Build with purpose. Style with clarity.”  
