@@ -39,14 +39,8 @@ To build a visually appealing and mobile-responsive web page using a front-end f
 
 ---
 
-## 📸 Preview  
-![Project Screenshot](assets/preview.png)  
-*(Add your own screenshot here after deployment.)*
-
----
-
 ## 🌍 Live Demo  
-🔗 **[Click Here to View the Deployed Site](https://your-vercel-link.vercel.app/)**  
+🔗 **[](https://your-vercel-link.vercel.app/)**  
 
 ---
 
