@@ -7,7 +7,7 @@ I completed **two mini-projects** under this level:
 ---
 
 ### 🌟 Project 1: Famous Indian Scientists (Bulma)  
-🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-cbrj.vercel.app/)  
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-sxlw.vercel.app/)  
 This project showcases a responsive card-grid built using the **Bulma CSS framework**, featuring notable Indian scientists with images, descriptions and “Learn More” links.
 
 #### 🧠 Features  
@@ -24,7 +24,7 @@ This project showcases a responsive card-grid built using the **Bulma CSS framew
 ---
 
 ### 🧩 Project 2: Responsive Grid Layout (Bootstrap)  
-🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-cbrj.vercel.app/grid.html)  
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-sxlw.vercel.app/grid.html)  
 This project demonstrates use of the **Bootstrap 5 framework** to build a clean grid layout showcasing web-technologies with icons and interactive styling.
 
 #### 🧠 Features  
