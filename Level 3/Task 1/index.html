@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>✨ Dev Gallery | Level 3 Task 1 ✨</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body{
+      font-family:"Poppins",sans-serif;
+      background:linear-gradient(135deg,#667eea,#764ba2,#6dd5fa);
+      background-size:400% 400%;
+      animation:gradientShift 12s ease infinite;
+      color:#f8fafc;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+    @keyframes gradientShift {
+      0%{background-position:0% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
+    }
+
+    h1{
+      font-size:2rem; font-weight:600; margin-bottom:1.4rem; color:#fff;
+      text-shadow:0 0 8px rgba(255,255,255,0.18);
+    }
+
+    .slider{
+      width:92%; max-width:1100px; border-radius:18px; overflow:hidden;
+      box-shadow:0 12px 40px rgba(0,0,0,0.45); background:rgba(255,255,255,0.04);
+      backdrop-filter: blur(6px);
+    }
+
+    .slides{
+      display:flex;
+      width:100%;           
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .slides img{
+      width:100%;
+      height:600px;
+      object-fit:cover;
+      flex:0 0 100%;         
+      display:block;
+    }
+
+    .nav{
+      position:absolute; left:50%; bottom:20px; transform:translateX(-50%);
+      display:flex; gap:12px;
+    }
+
+    .nav button{
+      height:14px; width:14px; border-radius:50%;
+      border:2px solid #fff; background:transparent; cursor:pointer;
+      transition:0.25s;
+    }
+    .nav button.active, .nav button:hover{
+      background:#ffb347; transform:scale(1.25);
+    }
+
+    footer{ margin-top:1.6rem; color:#fff; font-size:0.95rem; opacity:0.95; }
+
+    @media (max-width:768px){
+      .slides img{ height:360px; }
+      h1{ font-size:1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <h1>✨🧑‍💻 Meet the Dev Moments Gallery ✨</h1>
+
+  <div class="slider" id="sliderWrapper" style="position:relative;">
+    <div class="slides" id="slides">
+      <img src="assets/img1.jpg" alt="Mechanical Keyboard" />
+      <img src="assets/img2.jpg" alt="Laptop and Workspace" />
+      <img src="assets/img3.jpg" alt="Developer Working" />
+      <img src="assets/img4.jpg" alt="Desk Setup" />
+    </div>
+
+    <div class="nav" id="nav"></div>
+  </div>
+
+  <footer>Developed with 💜 by Jashwanth R | Cognifyz Web Dev Internship</footer>
+
+  <script>
+    (function(){
+      console.log("Slider init - start");
+
+      const slidesEl = document.getElementById("slides");
+      const navEl = document.getElementById("nav");
+
+      if (!slidesEl) {
+        console.error("ERROR: missing slides container (#slides)");
+        return;
+      }
+      const allChildren = Array.from(slidesEl.children);
+      const imgs = allChildren.filter(node => node.tagName && node.tagName.toLowerCase() === 'img');
+
+      const totalSlides = imgs.length || 0;
+      console.log("Found slide images:", totalSlides, imgs.map(i=>i.getAttribute('src')));
+
+      if (totalSlides === 0) {
+        slidesEl.innerHTML = "<div style='padding:60px;color:#fff;text-align:center;'>No images found in slides. Put images into <code>assets/</code> and check file names.</div>";
+        return;
+      }
+      for (let i=0; i<totalSlides; i++){
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.setAttribute("aria-label", "Slide " + (i+1));
+        btn.addEventListener("click", ()=> moveTo(i));
+        navEl.appendChild(btn);
+      }
+
+      const buttons = Array.from(navEl.querySelectorAll("button"));
+      if (buttons.length) buttons[0].classList.add("active");
+
+      let index = 0;
+      function moveTo(i){
+        // defensive integer parse
+        const target = Math.max(0, Math.min(totalSlides-1, parseInt(i,10) || 0));
+        slidesEl.style.transform = `translateX(-${target * 100}%)`;
+        buttons.forEach(b => b.classList.remove("active"));
+        if (buttons[target]) buttons[target].classList.add("active");
+        index = target;
+        console.log("Moved to slide:", index);
+      }
+
+      let interval = setInterval(()=> {
+        index = (index + 1) % totalSlides;
+        moveTo(index);
+      }, 2500);
+
+      const wrapper = document.getElementById("sliderWrapper");
+      wrapper.addEventListener("mouseenter", ()=> { clearInterval(interval); console.log("Auto-play paused"); });
+      wrapper.addEventListener("mouseleave", ()=> {
+        clearInterval(interval);
+        interval = setInterval(()=> {
+          index = (index + 1) % totalSlides;
+          moveTo(index);
+        }, 5000);
+        console.log("Auto-play resumed");
+      });
+
+      moveTo(0);
+      console.log("Slider init - done");
+    })();
+  </script>
+</body>
+</html>
