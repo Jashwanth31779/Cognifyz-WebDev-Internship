@@ -33,7 +33,7 @@ Build a professional and visually appealing **landing page** for the Cognifyz We
 
 ## 🧾 Output Preview
 A modern, professional internship landing page with vibrant design and smooth user experience.
-🔗 **Live Demo:** [View Here]
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-uifz-lv.vercel.app/)
 
 ---
 
