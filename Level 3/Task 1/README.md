@@ -29,7 +29,7 @@ Use CSS to create an engaging image gallery with interactive features.
 
 ## ✨ Output Preview
 A minimal and aesthetic developer moments gallery with interactive hover effects and transitions.
-(https://cognifyz-web-dev-internship-kbri.vercel.app/)
+🔗 **Live Demo:** [View Here](https://cognifyz-web-dev-internship-kbri.vercel.app/)
 
 ---
 
