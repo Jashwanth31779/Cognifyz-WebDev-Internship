@@ -1,4 +1,4 @@
-/* 🌟 Base Reset and Typography */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   background: #f3f4f6;
 }
 
-/* 🌈 Animated Header Background */
+
 header {
   background: linear-gradient(135deg, rgba(102,126,234,0.6), rgba(118,75,162,0.6)), 
               url('1.avif') no-repeat center/cover;
@@ -34,7 +34,7 @@ header {
   to {opacity: 1;}
 }
 
-/* 🔗 Navbar */
+
 nav {
   width: 100%;
   display: flex;
@@ -81,7 +81,7 @@ nav {
   color: #ffd700;
 }
 
-/* 🧑‍💻 Header Content */
+
 .header-content {
   max-width: 800px;
   z-index: 5;
@@ -93,7 +93,7 @@ nav {
   to {transform: translateY(0); opacity: 1;}
 }
 
-/* 💡 Learn More Button */
+
 #learn {
   margin-top: 1rem;
   background: linear-gradient(90deg, #ff416c, #ff4b2b);
@@ -117,7 +117,7 @@ nav {
   100% { box-shadow: 0 0 25px rgba(255,75,43,0.8); }
 }
 
-/* 🌟 Section Styles */
+
 section {
   padding: 60px 8%;
   text-align: center;
@@ -133,7 +133,6 @@ section.visible {
   transform: translateY(0);
 }
 
-/* Titles */
 #introduction h1,
 #highlights h2,
 #qualifications h2 {
@@ -143,7 +142,7 @@ section.visible {
   text-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* 💎 Cards */
+
 .card-container, .highlight-cards {
   display: flex;
   justify-content: center;
@@ -172,7 +171,7 @@ section.visible {
   font-weight: 500;
 }
 
-/* 🧾 Qualifications */
+
 .qualification-list p {
   background: linear-gradient(135deg, rgba(255,255,255,0.5), rgba(138,43,226,0.3));
   border-left: 5px solid #8e2de2;
@@ -188,7 +187,6 @@ section.visible {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* 🚀 CTA */
 #cta button {
   background: linear-gradient(90deg, #00c6ff, #0072ff);
   color: white;
